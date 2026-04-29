@@ -1,2 +1,3 @@
-public class Freezable {
+public interface Freezable {
+    boolean canFreeze();
 }
