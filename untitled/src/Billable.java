@@ -1,2 +1,4 @@
-public class Billable {
+public interface Billable {
+    double calculateMonthlyNetPrice();
+    double calculateMonthlyGrossPrice();
 }
