@@ -1,2 +1,3 @@
-public class RemoteAccess {
+public interface RemoteAccess {
+    boolean hasOnlineAccess();
 }
